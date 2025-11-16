@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     margin: 0 auto;
-    /* font-family: [Inter](https://fonts.google.com/specimen/Inter); */
 }
 #social-link-section{
     background: hsl(0, 0%, 8%);
@@ -18,7 +17,7 @@
     background: hsl(0, 0%, 12%);
     gap: 20px;
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 .header-image{
     border-radius: 50%;
