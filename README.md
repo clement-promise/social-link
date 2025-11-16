@@ -9,8 +9,13 @@ A social link for developers who are willing to connect with people with social 
 -HTML
 -CSS
 
-## Screenshot
+## Screenshots
 
+### Desktop View
+ ![Desktop](./images/destkop-design.jpg)
+
+ ### Mobile View
+ ![Desktop](./images/mobile-design.jpg)
 
 ## Author
 Oyewole Clement
