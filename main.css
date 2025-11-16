@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: [Inter](https://fonts.google.com/specimen/Inter);
+}
+#social-link-section{
+    background: hsl(0, 0%, 8%);
+    margin: 0 auto;
+    height: 100vh;
+    padding: 4rem;
+}
+.social-link-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 375px;
+    background: hsl(0, 0%, 12%);
+    gap: 20px;
+    padding: 2rem;
+    border-radius: 8px;
+}
+.header-image{
+    border-radius: 50%;
+    height: 100px;
+}
+.header{
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+}
+.para-one{
+    color: hsl(75, 94%, 57%);
+}
+.para-two{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+.social-link-button-container{
+    display: grid;
+    gap: 15px;
+}
+.social-link-button{
+    padding: 1rem 6rem;
+    width: 100%;
+    border-radius: 10px;
+    background: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: 500;
+}
+.social-link-button:hover{
+    background: hsl(75, 94%, 57%);
+}
+
+
