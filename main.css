@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0 auto;
-    font-family: [Inter](https://fonts.google.com/specimen/Inter);
+    /* font-family: [Inter](https://fonts.google.com/specimen/Inter); */
 }
 #social-link-section{
     background: hsl(0, 0%, 8%);
@@ -14,7 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 375px;
+    max-width: 400px;
     background: hsl(0, 0%, 12%);
     gap: 20px;
     padding: 2rem;
@@ -36,7 +36,8 @@
     font-size: 14px;
 }
 .social-link-button-container{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 15px;
 }
 .social-link-button{
@@ -45,11 +46,23 @@
     border-radius: 10px;
     background: hsl(0, 0%, 20%);
     color: hsl(0, 0%, 100%);
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: bold;
 }
 .social-link-button:hover{
     background: hsl(75, 94%, 57%);
 }
+@media(max-width:499px){
+    #social-link-section{
+        padding: 4rem 1.5rem;
+    }
+    .social-link-button{
+        font-size: 14px;
+        padding: 1rem 6rem;
+        width: 100%;
+        font-weight: bold;
+    }
+}
+
 
 
