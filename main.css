@@ -2,29 +2,27 @@
     box-sizing: border-box;
     margin: 0 auto;
 }
-#social-link-section{
+.social-link-section{
     background: hsl(0, 0%, 8%);
-    margin: 0 auto;
-    height: 100vh;
-    padding: 4rem;
+    padding: 4rem 1rem;
 }
 .social-link-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 400px;
+    max-width: 25rem;
     background: hsl(0, 0%, 12%);
-    gap: 20px;
-    padding: 2rem;
+    gap: 15px;
+    padding: 2rem 1rem;
     border-radius: 10px;
+    margin: 0 auto;
 }
 .header-image{
     border-radius: 50%;
     height: 100px;
 }
 .header{
-    margin: 0;
     color: hsl(0, 0%, 100%);
 }
 .para-one{
@@ -51,17 +49,16 @@
 .social-link-button:hover{
     background: hsl(75, 94%, 57%);
 }
-@media(max-width:499px){
-    #social-link-section{
-        padding: 4rem 1.5rem;
+@media(min-width: 768px){
+    .social-link-section{
+        padding: 4rem;
     }
-    .social-link-button{
-        font-size: 14px;
-        padding: 1rem 6rem;
-        width: 100%;
-        font-weight: bold;
+    .social-link-container{
+        gap: 20px;
+        margin: 0 auto;
     }
 }
+
 
 
 
