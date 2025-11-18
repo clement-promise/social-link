@@ -45,6 +45,8 @@ main{
     color: hsl(0, 0%, 100%);
     font-size: 14px;
     font-weight: bold;
+    text-align: center;
+    text-decoration: none;
 }
 .social-link-button:hover{
     background: hsl(75, 94%, 57%);
